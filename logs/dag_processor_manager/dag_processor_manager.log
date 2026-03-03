@@ -1,0 +1,1807 @@
+[2026-02-27T00:01:26.933+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2026-02-27T00:01:26.934+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2026-02-27T00:01:26.934+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-02-27T00:01:26.934+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T00:01:26.935+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T00:06:27.853+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T00:06:27.858+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T00:11:28.783+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T00:11:28.786+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T00:16:29.391+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T00:16:29.396+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T00:21:30.220+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T00:21:30.224+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T00:26:31.186+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T00:26:31.191+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T00:31:32.102+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T00:31:32.106+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T00:36:32.460+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T00:36:32.466+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T00:41:32.477+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T00:41:32.486+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T00:46:32.637+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T00:46:32.642+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T00:51:33.567+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T00:51:33.570+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T00:56:33.641+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T00:56:33.646+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T01:01:34.106+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T01:01:34.109+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T01:06:34.551+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T01:06:34.556+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T01:27:15.038+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T01:27:15.043+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T01:43:43.791+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T01:43:43.793+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T01:57:42.766+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T01:57:42.772+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T02:02:43.740+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T02:02:43.744+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T02:07:44.583+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T02:07:44.588+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T02:12:44.826+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T02:12:44.830+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T02:17:45.372+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T02:17:45.377+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T02:22:46.071+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T02:22:46.077+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T02:27:46.108+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T02:27:46.111+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T02:32:46.919+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T02:32:46.924+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T02:37:47.629+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T02:37:47.634+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T02:42:48.631+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T02:42:48.636+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T02:47:48.706+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T02:47:48.711+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T02:52:49.651+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T02:52:49.656+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T02:57:50.422+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T02:57:50.427+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T03:02:51.427+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T03:02:51.432+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T03:07:51.443+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T03:07:51.447+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T03:12:52.362+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T03:12:52.366+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T03:17:52.807+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T03:17:52.811+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T03:22:53.755+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T03:22:53.760+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T03:27:54.602+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T03:27:54.607+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T03:32:55.421+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T03:32:55.426+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T03:37:55.704+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T03:37:55.708+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T03:42:55.708+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T03:42:55.713+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T03:47:56.559+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T03:47:56.564+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T03:52:57.449+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T03:52:57.454+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T03:57:58.239+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T03:57:58.293+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T04:02:58.329+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T04:02:58.334+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T04:07:58.855+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T04:07:58.860+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T04:12:59.415+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T04:12:59.420+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T04:17:59.696+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T04:17:59.701+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T04:23:00.287+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T04:23:00.291+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T04:48:40.668+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T04:48:40.672+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T05:23:34.955+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T05:23:34.958+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T06:26:26.675+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T06:26:26.678+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T07:00:48.777+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T07:00:48.780+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T07:27:35.649+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T07:27:35.650+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T07:44:44.357+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T07:44:44.360+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T07:49:44.865+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T07:49:44.868+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T07:54:45.670+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T07:54:45.678+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T07:59:46.618+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T07:59:46.623+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T08:15:15.547+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T08:15:15.554+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T09:28:18.958+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T09:28:18.960+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T10:05:52.600+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T10:05:52.603+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T11:09:04.646+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T11:09:04.650+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T11:57:20.312+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T11:57:20.314+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T13:29:14.370+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T13:29:14.375+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T14:35:39.872+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T14:35:39.875+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T16:03:55.035+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T16:03:55.041+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T16:54:12.795+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T16:54:12.797+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T17:30:30.405+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T17:30:30.412+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T18:22:05.341+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T18:22:05.343+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T19:24:49.801+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T19:24:49.802+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T19:52:29.651+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T19:52:29.657+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T19:57:29.653+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T19:57:29.658+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T20:02:30.569+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T20:02:30.574+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T20:07:31.485+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T20:07:31.490+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T20:12:32.383+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T20:12:32.388+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T20:17:33.285+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T20:17:33.290+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T20:22:34.183+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T20:22:34.188+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T20:27:34.230+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T20:27:34.235+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T20:32:34.897+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T20:32:34.901+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T20:37:34.953+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T20:37:34.958+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T20:42:35.198+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T20:42:35.204+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T20:47:35.643+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T20:47:35.648+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T20:52:36.412+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T20:52:36.417+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T20:57:36.497+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T20:57:36.502+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T21:02:37.464+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T21:02:37.469+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T21:07:38.268+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T21:07:38.273+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T21:12:38.699+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T21:12:38.704+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T21:17:39.227+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T21:17:39.232+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T21:22:40.191+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T21:22:40.199+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T21:44:23.756+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T21:44:23.763+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T21:49:23.864+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T21:49:23.869+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T21:54:24.586+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T21:54:24.592+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T21:59:25.490+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T21:59:25.494+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T22:04:25.559+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T22:04:25.564+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T22:09:25.625+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T22:09:25.630+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T22:14:25.709+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T22:14:25.715+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T22:19:26.687+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T22:19:26.692+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T22:24:27.313+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T22:24:27.318+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-27T23:02:03.304+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-27T23:02:03.308+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T00:10:19.930+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T00:10:19.935+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T00:15:20.836+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T00:15:20.842+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T00:20:21.677+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T00:20:21.683+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T00:25:22.231+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T00:25:22.237+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T00:30:22.859+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T00:30:22.864+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T00:35:23.831+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T00:35:23.836+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T00:40:24.489+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T00:40:24.494+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T00:45:25.275+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T00:45:25.280+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T00:50:26.236+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T00:50:26.242+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T00:55:27.075+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T00:55:27.080+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T01:00:27.997+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T01:00:28.004+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T01:05:28.917+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T01:05:28.922+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T01:10:29.647+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T01:10:29.648+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T01:15:29.661+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T01:15:29.667+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T01:20:30.528+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T01:20:30.533+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T01:25:31.471+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T01:25:31.476+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T01:30:32.287+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T01:30:32.293+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T01:35:33.237+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T01:35:33.242+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T01:40:34.046+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T01:40:34.051+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T01:45:34.158+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T01:45:34.163+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T01:50:34.763+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T01:50:34.766+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T01:55:34.975+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T01:55:34.978+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T02:25:17.910+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T02:25:17.914+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T03:24:01.998+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T03:24:01.999+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T03:43:43.882+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T03:43:43.886+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T03:49:16.047+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T03:49:16.050+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T04:45:16.255+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T04:45:16.262+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T05:33:59.545+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T05:33:59.547+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T06:47:07.936+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T06:47:07.939+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T06:55:14.638+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T06:55:14.643+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T07:27:44.932+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T07:27:44.935+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T08:01:13.477+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T08:01:13.479+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T08:30:22.733+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T08:30:22.735+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T08:38:42.614+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T08:38:42.616+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T09:14:35.118+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T09:14:35.120+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T09:41:04.693+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T09:41:04.695+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T09:57:36.426+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T09:57:36.428+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T10:02:36.550+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T10:02:36.554+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T10:35:43.065+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T10:35:43.067+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T12:18:19.423+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T12:18:19.425+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T13:41:15.012+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T13:41:15.047+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T14:44:32.919+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T14:44:32.922+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T15:53:23.520+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T15:53:23.523+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T16:47:57.839+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T16:47:57.842+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T17:11:55.591+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T17:11:55.592+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T17:46:52.915+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T17:46:52.918+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T17:57:42.325+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T17:57:42.329+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T18:48:01.279+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T18:48:01.280+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T19:16:46.592+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T19:16:46.596+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T19:56:12.227+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T19:56:12.231+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T20:01:12.243+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T20:01:12.249+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T20:06:13.203+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T20:06:13.208+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T20:11:13.294+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T20:11:13.299+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T20:16:14.202+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T20:16:14.207+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T20:21:14.217+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T20:21:14.222+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T20:26:15.197+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T20:26:15.203+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T20:31:16.119+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T20:31:16.124+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T20:36:16.969+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T20:36:16.974+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T20:41:17.823+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T20:41:17.829+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T20:46:17.855+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T20:46:17.860+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T20:51:18.164+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T20:51:18.169+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T20:56:18.190+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T20:56:18.196+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T21:01:19.064+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T21:01:19.069+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T21:06:19.073+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T21:06:19.127+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T21:11:19.918+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T21:11:19.923+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T21:16:20.035+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T21:16:20.038+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T22:29:19.062+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T22:29:19.065+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-02-28T23:19:25.092+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-02-28T23:19:25.095+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T00:37:07.766+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T00:37:07.770+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T01:21:30.253+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T01:21:30.254+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T02:07:02.299+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T02:07:02.303+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T03:23:25.239+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T03:23:25.242+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T04:14:20.866+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T04:14:20.872+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T04:55:24.417+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T04:55:24.419+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T05:00:25.350+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T05:00:25.360+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T05:05:26.225+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T05:05:26.231+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T05:10:26.849+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T05:10:26.853+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T05:15:27.611+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T05:15:27.616+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T05:20:27.694+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T05:20:27.699+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T05:25:28.425+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T05:25:28.430+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T05:30:29.368+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T05:30:29.375+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T05:35:29.439+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T05:35:29.444+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T05:40:29.796+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T05:40:29.801+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T05:45:30.589+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T05:45:30.593+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T05:50:30.696+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T05:50:30.701+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T05:55:31.594+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T05:55:31.599+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T06:00:32.014+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T06:00:32.021+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T06:05:32.355+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T06:05:32.360+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T06:10:32.842+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T06:10:32.847+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T06:15:33.727+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T06:15:33.732+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T06:20:34.477+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T06:20:34.481+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T06:25:35.153+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T06:25:35.158+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T06:30:35.384+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T06:30:35.388+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T06:35:35.477+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T06:35:35.484+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T06:40:35.680+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T06:40:35.685+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T06:45:35.984+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T06:45:35.993+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T06:50:36.102+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T06:50:36.107+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T06:55:37.019+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T06:55:37.024+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T07:00:37.888+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T07:00:37.893+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T07:17:52.597+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T07:17:52.602+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T07:33:47.593+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T07:33:47.595+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T07:42:18.382+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T07:42:18.386+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T08:30:30.861+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T08:30:30.864+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T09:20:06.271+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T09:20:06.274+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T10:25:51.326+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T10:25:51.330+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T11:16:46.168+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T11:16:46.171+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T12:06:24.377+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T12:06:24.380+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T13:26:22.025+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T13:26:22.028+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T14:10:25.545+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T14:10:25.548+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T14:45:53.877+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T14:45:53.883+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T15:50:31.371+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T15:50:31.373+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T17:03:46.737+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T17:03:46.750+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T18:12:34.469+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T18:12:34.473+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T18:46:39.276+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T18:46:39.279+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T19:38:31.375+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T19:38:31.381+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T19:43:32.304+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T19:43:32.309+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T19:48:33.192+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T19:48:33.201+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T19:53:34.062+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T19:53:34.089+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T19:58:34.984+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T19:58:34.989+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T20:03:34.985+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T20:03:34.988+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T20:08:35.855+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T20:08:35.860+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T20:13:36.788+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T20:13:36.794+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T20:18:36.825+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T20:18:36.830+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T20:23:36.840+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T20:23:36.845+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T20:28:36.852+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T20:28:36.917+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T20:33:36.867+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T20:33:36.873+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T20:38:37.779+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T20:38:37.783+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T20:43:38.759+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T20:43:38.764+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T20:48:39.589+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T20:48:39.595+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T20:53:40.446+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T20:53:40.452+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T20:58:40.452+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T20:58:40.457+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T21:03:40.660+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T21:03:40.666+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T21:08:41.483+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T21:08:41.488+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T21:13:42.275+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T21:13:42.281+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T21:18:43.000+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T21:18:43.004+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T21:23:43.170+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T21:23:43.175+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T21:28:43.607+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T21:28:43.613+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T21:33:43.631+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T21:33:43.636+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T21:38:43.988+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T21:38:43.993+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T21:43:44.485+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T21:43:44.487+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T21:48:44.928+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T21:48:44.931+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T21:53:44.978+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T21:53:44.984+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T22:00:39.622+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T22:00:39.627+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T22:18:09.019+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T22:18:09.022+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T22:34:07.667+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T22:34:07.670+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T22:49:37.015+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T22:49:37.017+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T23:05:29.935+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T23:05:29.940+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T23:15:09.423+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T23:15:09.428+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T23:37:21.447+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T23:37:21.452+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-01T23:47:41.864+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-01T23:47:41.869+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T00:03:02.470+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T00:03:02.472+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T00:16:01.037+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T00:16:01.047+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T00:21:01.992+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T00:21:01.997+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T00:26:02.821+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T00:26:02.828+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T00:31:02.835+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T00:31:02.840+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T00:36:03.765+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T00:36:03.771+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T00:41:04.695+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T00:41:04.701+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T00:46:05.664+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T00:46:05.670+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T00:51:06.296+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T00:51:06.303+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T00:56:06.299+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T00:56:06.304+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T01:01:07.103+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T01:01:07.108+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T01:06:07.243+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T01:06:07.247+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T01:11:08.105+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T01:11:08.110+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T01:16:08.204+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T01:16:08.210+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T01:21:08.993+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T01:21:08.998+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T01:26:09.041+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T01:26:09.047+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T01:31:09.901+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T01:31:09.907+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T01:36:10.780+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T01:36:10.784+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T01:41:11.754+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T01:41:11.802+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T01:46:11.819+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T01:46:11.825+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T01:51:12.704+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T01:51:12.709+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T01:56:13.425+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T01:56:13.430+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T02:01:13.880+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T02:01:13.884+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T02:06:14.233+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T02:06:14.237+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T02:11:15.087+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T02:11:15.091+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T02:16:15.087+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T02:16:15.092+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T02:21:15.232+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T02:21:15.237+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T02:26:15.964+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T02:26:15.969+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T02:37:15.169+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T02:37:15.171+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T02:54:27.949+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T02:54:27.953+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T03:10:56.741+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T03:10:56.755+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T03:31:21.165+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T03:31:21.170+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T03:48:25.133+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T03:48:25.166+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T04:04:58.831+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T04:04:58.836+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T04:22:05.647+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T04:22:05.650+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T04:37:58.021+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T04:37:58.024+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T04:54:59.553+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T04:54:59.557+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T04:59:59.715+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T04:59:59.718+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T05:05:00.662+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T05:05:00.668+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T05:10:01.441+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T05:10:01.446+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T05:15:01.944+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T05:15:01.948+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T05:20:02.804+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T05:20:02.811+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T05:25:03.404+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T05:25:03.411+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T05:30:04.290+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T05:30:04.294+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T05:35:04.543+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T05:35:04.549+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T05:54:58.220+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T05:54:58.222+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T06:12:31.734+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T06:12:31.738+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T06:28:01.973+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T06:28:01.975+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T06:34:29.179+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T06:34:29.182+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T06:51:34.617+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T06:51:34.621+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T07:08:23.032+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T07:08:23.034+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T07:16:37.486+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T07:16:37.492+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T07:21:37.554+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T07:21:37.558+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T07:35:20.303+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T07:35:20.308+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T07:40:20.506+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T07:40:20.518+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T07:45:21.366+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T07:45:21.371+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T07:52:40.325+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T07:52:40.334+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T07:57:40.328+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T07:57:40.333+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T08:02:41.273+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T08:02:41.279+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T08:07:41.524+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T08:07:41.529+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T08:12:42.425+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T08:12:42.430+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T08:17:42.427+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T08:17:42.432+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T08:22:43.386+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T08:22:43.389+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T08:27:44.296+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T08:27:44.302+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T08:32:45.250+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T08:32:45.255+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T08:37:45.302+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T08:37:45.308+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T08:42:46.262+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T08:42:46.276+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T08:47:46.976+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T08:47:46.983+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T09:05:25.945+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T09:05:25.949+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T09:12:09.124+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T09:12:09.126+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T09:33:22.690+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T09:33:22.694+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T09:49:26.459+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T09:49:26.463+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T10:06:55.132+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T10:06:55.141+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T10:23:03.873+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T10:23:03.876+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T10:38:40.253+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T10:38:40.257+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T10:48:50.064+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T10:48:50.069+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T11:07:00.345+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T11:07:00.349+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T11:23:28.097+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T11:23:28.102+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T11:41:09.553+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T11:41:09.556+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T11:58:15.352+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T11:58:15.358+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T12:15:02.658+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T12:15:02.659+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T12:32:57.662+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T12:32:57.667+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T12:48:42.975+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T12:48:42.977+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T13:08:29.009+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T13:08:29.015+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T13:13:29.990+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T13:13:29.995+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T13:29:19.053+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T13:29:19.054+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T13:46:07.198+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T13:46:07.203+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T14:02:38.853+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T14:02:38.857+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T14:18:44.506+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T14:18:44.510+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T14:35:22.848+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T14:35:22.850+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T14:46:10.784+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T14:46:10.789+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T15:02:14.998+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T15:02:15.002+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T15:18:13.468+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T15:18:13.469+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T15:35:38.578+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T15:35:38.582+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T15:51:08.568+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T15:51:08.572+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T16:08:14.227+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T16:08:14.230+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T16:29:08.924+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T16:29:08.927+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T16:45:32.217+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T16:45:32.219+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T16:51:19.756+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T16:51:19.761+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T17:06:50.170+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T17:06:50.175+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T17:11:50.880+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T17:11:50.886+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T17:30:29.341+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T17:30:29.349+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T17:47:16.052+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T17:47:16.057+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T18:05:39.630+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T18:05:39.634+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T18:21:38.910+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T18:21:38.913+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T18:37:50.006+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T18:37:50.010+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T18:47:10.372+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T18:47:10.383+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T18:52:11.242+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T18:52:11.247+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T18:57:11.396+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T18:57:11.400+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T19:02:12.133+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T19:02:12.136+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T19:07:12.164+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T19:07:12.167+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T19:12:12.271+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T19:12:12.277+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T19:17:13.098+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T19:17:13.103+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T19:22:13.142+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T19:22:13.147+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T19:27:13.282+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T19:27:13.286+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T19:32:14.083+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T19:32:14.088+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T19:37:14.839+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T19:37:14.845+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T19:42:14.894+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T19:42:14.898+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T19:47:14.981+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T19:47:14.986+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T19:52:15.536+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T19:52:15.541+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T19:57:15.786+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T19:57:15.791+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T20:02:15.807+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T20:02:15.867+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T20:07:16.776+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T20:07:16.782+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T20:12:17.671+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T20:12:17.677+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T20:17:18.496+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T20:17:18.501+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T20:22:19.110+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T20:22:19.115+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T20:27:20.038+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T20:27:20.043+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T20:56:38.339+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T20:56:38.351+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T21:01:38.340+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T21:01:38.344+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T21:06:39.254+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T21:06:39.263+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T21:11:40.083+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T21:11:40.086+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T21:16:41.053+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T21:16:41.060+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T21:21:42.013+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T21:21:42.020+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T21:26:42.785+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T21:26:42.790+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T21:31:43.789+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T21:31:43.808+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T21:36:44.699+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T21:36:44.707+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T21:41:45.515+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T21:41:45.522+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T21:46:46.490+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T21:46:46.495+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T21:51:46.940+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T21:51:46.949+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T21:56:47.439+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T21:56:47.450+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T22:01:47.748+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T22:01:47.753+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T22:06:47.792+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T22:06:47.800+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T22:11:48.426+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T22:11:48.436+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T22:16:49.251+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T22:16:49.258+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T22:21:49.289+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T22:21:49.297+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T22:26:50.208+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T22:26:50.216+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T22:31:50.323+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T22:31:50.331+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T22:36:51.147+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T22:36:51.155+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T22:41:52.019+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T22:41:52.024+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T22:46:52.951+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T22:46:52.958+0000] {manager.py:835} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-02T22:51:53.928+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T22:51:53.937+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-02T22:52:18.352+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.07s           2026-03-02T22:51:55                       5
+================================================================================
+[2026-03-02T22:52:48.694+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.08s           2026-03-02T22:52:25                       7
+================================================================================
+[2026-03-02T22:53:19.008+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.07s           2026-03-02T22:52:55                       7
+================================================================================
+[2026-03-02T22:53:49.388+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.10s           2026-03-02T22:53:26                       7
+================================================================================
+[2026-03-02T22:54:19.873+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.09s           2026-03-02T22:53:56                       7
+================================================================================
+[2026-03-02T22:54:50.259+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.09s           2026-03-02T22:54:27                       7
+================================================================================
+[2026-03-02T22:55:20.580+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.05s           2026-03-02T22:54:57                       7
+================================================================================
+[2026-03-02T22:55:50.905+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.07s           2026-03-02T22:55:27                       7
+================================================================================
+[2026-03-02T22:56:21.183+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.05s           2026-03-02T22:55:58                       7
+================================================================================
+[2026-03-02T22:56:51.520+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.08s           2026-03-02T22:56:28                       7
+================================================================================
+[2026-03-02T22:56:54.549+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T22:56:54.558+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-02T22:57:21.902+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.06s           2026-03-02T22:56:58                       7
+================================================================================
+[2026-03-02T22:57:52.290+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.09s           2026-03-02T22:57:29                       7
+================================================================================
+[2026-03-02T22:58:22.648+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.08s           2026-03-02T22:57:59                       7
+================================================================================
+[2026-03-02T22:58:53.001+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.07s           2026-03-02T22:58:29                       7
+================================================================================
+[2026-03-02T22:59:23.360+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.11s           2026-03-02T22:59:00                       7
+================================================================================
+[2026-03-02T22:59:53.728+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.08s           2026-03-02T22:59:30                       7
+================================================================================
+[2026-03-02T23:00:24.045+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.07s           2026-03-02T23:00:00                       7
+================================================================================
+[2026-03-02T23:00:54.323+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.07s           2026-03-02T23:00:31                       7
+================================================================================
+[2026-03-02T23:01:24.628+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           0           1  0.06s           2026-03-02T23:01:01                       7
+================================================================================
+[2026-03-02T23:01:54.954+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T23:01:54.957+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-02T23:01:54.967+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.17s           2026-03-02T23:01:47                      47
+================================================================================
+[2026-03-02T23:02:25.367+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-02T23:02:17                      14
+================================================================================
+[2026-03-02T23:02:55.738+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.13s           2026-03-02T23:02:47                      14
+================================================================================
+[2026-03-02T23:03:26.107+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.14s           2026-03-02T23:03:18                      14
+================================================================================
+[2026-03-02T23:03:56.453+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.14s           2026-03-02T23:03:48                      14
+================================================================================
+[2026-03-02T23:04:26.818+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.13s           2026-03-02T23:04:18                      14
+================================================================================
+[2026-03-02T23:04:57.187+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.10s           2026-03-02T23:04:49                      14
+================================================================================
+[2026-03-02T23:05:27.542+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-02T23:05:19                      14
+================================================================================
+[2026-03-02T23:05:57.926+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.11s           2026-03-02T23:05:49                      14
+================================================================================
+[2026-03-02T23:06:28.301+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.17s           2026-03-02T23:06:20                      14
+================================================================================
+[2026-03-02T23:06:55.675+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T23:06:55.681+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-02T23:06:58.731+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.13s           2026-03-02T23:06:50                      14
+================================================================================
+[2026-03-02T23:07:29.069+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.11s           2026-03-02T23:07:21                      14
+================================================================================
+[2026-03-02T23:07:59.400+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.11s           2026-03-02T23:07:51                      14
+================================================================================
+[2026-03-02T23:08:29.783+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-02T23:08:21                      14
+================================================================================
+[2026-03-02T23:09:00.145+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-02T23:08:52                      14
+================================================================================
+[2026-03-02T23:09:30.546+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-02T23:09:22                      14
+================================================================================
+[2026-03-02T23:10:00.922+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.13s           2026-03-02T23:09:52                      14
+================================================================================
+[2026-03-02T23:10:31.266+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.15s           2026-03-02T23:10:23                      14
+================================================================================
+[2026-03-02T23:11:01.586+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.10s           2026-03-02T23:10:53                      14
+================================================================================
+[2026-03-02T23:11:31.896+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.14s           2026-03-02T23:11:23                      14
+================================================================================
+[2026-03-02T23:11:56.206+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T23:11:56.213+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-02T23:12:02.298+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-02T23:11:54                      14
+================================================================================
+[2026-03-02T23:12:32.669+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.13s           2026-03-02T23:12:24                      14
+================================================================================
+[2026-03-02T23:13:03.009+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-02T23:12:54                      14
+================================================================================
+[2026-03-02T23:13:33.311+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-02T23:13:25                      14
+================================================================================
+[2026-03-02T23:14:03.652+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-02T23:13:55                      14
+================================================================================
+[2026-03-02T23:14:34.014+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-02T23:14:25                      14
+================================================================================
+[2026-03-02T23:15:04.361+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-02T23:14:56                      14
+================================================================================
+[2026-03-02T23:15:34.674+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:15:26                      14
+================================================================================
+[2026-03-02T23:16:04.988+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-02T23:15:56                      14
+================================================================================
+[2026-03-02T23:16:35.312+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.11s           2026-03-02T23:16:27                      14
+================================================================================
+[2026-03-02T23:16:56.513+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T23:16:56.519+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-02T23:17:05.619+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:16:57                      14
+================================================================================
+[2026-03-02T23:17:35.920+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.06s           2026-03-02T23:17:27                      14
+================================================================================
+[2026-03-02T23:18:06.241+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.05s           2026-03-02T23:17:58                      14
+================================================================================
+[2026-03-02T23:18:36.573+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-02T23:18:28                      14
+================================================================================
+[2026-03-02T23:19:06.959+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-02T23:18:58                      14
+================================================================================
+[2026-03-02T23:19:37.383+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.13s           2026-03-02T23:19:29                      14
+================================================================================
+[2026-03-02T23:20:07.818+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-02T23:19:59                      14
+================================================================================
+[2026-03-02T23:20:38.205+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:20:30                      14
+================================================================================
+[2026-03-02T23:21:08.604+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-02T23:21:00                      14
+================================================================================
+[2026-03-02T23:21:39.015+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:21:30                      14
+================================================================================
+[2026-03-02T23:21:57.254+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T23:21:57.258+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-02T23:22:09.417+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:22:01                      14
+================================================================================
+[2026-03-02T23:22:39.797+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-02T23:22:31                      14
+================================================================================
+[2026-03-02T23:23:10.194+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-02T23:23:02                      14
+================================================================================
+[2026-03-02T23:23:40.540+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.11s           2026-03-02T23:23:32                      14
+================================================================================
+[2026-03-02T23:24:11.013+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-02T23:24:02                      14
+================================================================================
+[2026-03-02T23:24:41.432+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.10s           2026-03-02T23:24:33                      14
+================================================================================
+[2026-03-02T23:25:11.905+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-02T23:25:03                      14
+================================================================================
+[2026-03-02T23:25:42.292+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:25:34                      14
+================================================================================
+[2026-03-02T23:26:12.664+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:26:04                      14
+================================================================================
+[2026-03-02T23:26:43.032+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-02T23:26:35                      14
+================================================================================
+[2026-03-02T23:26:57.295+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T23:26:57.302+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-02T23:27:13.308+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:27:05                      14
+================================================================================
+[2026-03-02T23:27:43.734+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-02T23:27:35                      14
+================================================================================
+[2026-03-02T23:28:14.098+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-02T23:28:06                      14
+================================================================================
+[2026-03-02T23:28:44.491+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:28:36                      14
+================================================================================
+[2026-03-02T23:29:14.903+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-02T23:29:06                      14
+================================================================================
+[2026-03-02T23:29:45.311+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:29:37                      14
+================================================================================
+[2026-03-02T23:30:15.627+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:30:07                      14
+================================================================================
+[2026-03-02T23:30:46.047+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-02T23:30:38                      14
+================================================================================
+[2026-03-02T23:31:16.440+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:31:08                      14
+================================================================================
+[2026-03-02T23:31:46.783+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.06s           2026-03-02T23:31:38                      14
+================================================================================
+[2026-03-02T23:31:57.913+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T23:31:57.918+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-02T23:32:17.182+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:32:09                      14
+================================================================================
+[2026-03-02T23:32:47.560+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-02T23:32:39                      14
+================================================================================
+[2026-03-02T23:33:17.935+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-02T23:33:09                      14
+================================================================================
+[2026-03-02T23:33:48.288+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-02T23:33:40                      14
+================================================================================
+[2026-03-02T23:49:26.956+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-02T23:49:26.961+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-02T23:49:34.357+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.23s           2026-03-02T23:49:27                      14
+================================================================================
+[2026-03-03T00:12:17.611+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-03T00:12:17.630+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-03T00:12:24.711+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-03T00:12:17                      14
+================================================================================
+[2026-03-03T00:12:55.059+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-03T00:12:48                      14
+================================================================================
+[2026-03-03T00:13:25.432+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.10s           2026-03-03T00:13:18                      14
+================================================================================
+[2026-03-03T00:13:55.766+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-03T00:13:48                      14
+================================================================================
+[2026-03-03T00:14:26.127+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.11s           2026-03-03T00:14:19                      14
+================================================================================
+[2026-03-03T00:14:56.451+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-03T00:14:49                      14
+================================================================================
+[2026-03-03T00:15:26.787+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.10s           2026-03-03T00:15:19                      14
+================================================================================
+[2026-03-03T00:15:57.112+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.07s           2026-03-03T00:15:50                      14
+================================================================================
+[2026-03-03T00:16:27.474+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-03T00:16:20                      14
+================================================================================
+[2026-03-03T00:16:57.829+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-03T00:16:50                      14
+================================================================================
+[2026-03-03T00:17:18.031+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-03T00:17:18.038+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-03T00:17:28.187+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.11s           2026-03-03T00:17:21                      14
+================================================================================
+[2026-03-03T00:17:58.546+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-03T00:17:51                      14
+================================================================================
+[2026-03-03T00:18:28.862+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.10s           2026-03-03T00:18:21                      14
+================================================================================
+[2026-03-03T00:18:59.185+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-03T00:18:52                      14
+================================================================================
+[2026-03-03T00:19:29.520+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.10s           2026-03-03T00:19:22                      14
+================================================================================
+[2026-03-03T00:19:59.858+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-03T00:19:52                      14
+================================================================================
+[2026-03-03T00:20:30.211+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-03T00:20:23                      14
+================================================================================
+[2026-03-03T00:21:00.588+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.11s           2026-03-03T00:20:53                      14
+================================================================================
+[2026-03-03T00:21:30.922+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.06s           2026-03-03T00:21:23                      14
+================================================================================
+[2026-03-03T00:22:01.248+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-03T00:21:54                      14
+================================================================================
+[2026-03-03T00:22:18.433+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-03T00:22:18.441+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-03T00:22:31.607+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.08s           2026-03-03T00:22:24                      14
+================================================================================
+[2026-03-03T00:23:01.973+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-03T00:22:54                      14
+================================================================================
+[2026-03-03T00:23:32.334+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-03T00:23:25                      14
+================================================================================
+[2026-03-03T00:24:02.679+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.11s           2026-03-03T00:23:55                      14
+================================================================================
+[2026-03-03T00:24:32.996+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-03T00:24:25                      14
+================================================================================
+[2026-03-03T00:25:03.352+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.11s           2026-03-03T00:24:56                      14
+================================================================================
+[2026-03-03T00:25:33.690+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-03T00:25:26                      14
+================================================================================
+[2026-03-03T00:26:04.026+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-03T00:25:57                      14
+================================================================================
+[2026-03-03T00:26:34.369+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.10s           2026-03-03T00:26:27                      14
+================================================================================
+[2026-03-03T00:27:04.750+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.11s           2026-03-03T00:26:57                      14
+================================================================================
+[2026-03-03T00:27:18.879+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-03-03T00:27:18.887+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-03T00:27:35.123+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-03T00:27:28                      14
+================================================================================
+[2026-03-03T00:28:05.447+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.09s           2026-03-03T00:27:58                      14
+================================================================================
+[2026-03-03T00:28:35.793+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-03T00:28:28                      14
+================================================================================
+[2026-03-03T00:29:06.147+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-03T00:28:59                      14
+================================================================================
+[2026-03-03T00:29:36.500+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.06s           2026-03-03T00:29:29                      14
+================================================================================
+[2026-03-03T00:30:06.863+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-03T00:29:59                      14
+================================================================================
+[2026-03-03T00:30:37.257+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.16s           2026-03-03T00:30:30                      14
+================================================================================
+[2026-03-03T00:31:07.594+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.12s           2026-03-03T00:31:00                      14
+================================================================================
+[2026-03-03T00:31:37.976+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/d226hw5-weatherETL.py                           1           0  0.10s           2026-03-03T00:31:30                      14
+================================================================================

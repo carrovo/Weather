@@ -1,0 +1,1110 @@
+[2026-03-02T22:51:55.097+0000] {processor.py:186} INFO - Started process (PID=17223) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:51:55.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:51:55.099+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:51:55.099+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:51:55.122+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:51:55.117+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:51:55.123+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:51:55.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.032 seconds
+[2026-03-02T22:52:25.477+0000] {processor.py:186} INFO - Started process (PID=17234) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:52:25.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:52:25.485+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:52:25.485+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:52:25.511+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:52:25.509+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:52:25.511+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:52:25.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.045 seconds
+[2026-03-02T22:52:55.788+0000] {processor.py:186} INFO - Started process (PID=17245) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:52:55.789+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:52:55.791+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:52:55.791+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:52:55.806+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:52:55.805+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:52:55.807+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:52:55.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.026 seconds
+[2026-03-02T22:53:26.161+0000] {processor.py:186} INFO - Started process (PID=17256) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:53:26.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:53:26.167+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:53:26.167+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:53:26.198+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:53:26.196+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:53:26.199+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:53:26.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.053 seconds
+[2026-03-02T22:53:56.643+0000] {processor.py:186} INFO - Started process (PID=17267) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:53:56.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:53:56.647+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:53:56.646+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:53:56.667+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:53:56.665+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:53:56.668+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:53:56.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.034 seconds
+[2026-03-02T22:54:27.025+0000] {processor.py:186} INFO - Started process (PID=17284) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:54:27.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:54:27.028+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:54:27.028+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:54:27.056+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:54:27.054+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:54:27.056+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:54:27.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.046 seconds
+[2026-03-02T22:54:57.332+0000] {processor.py:186} INFO - Started process (PID=17295) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:54:57.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:54:57.336+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:54:57.336+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:54:57.355+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:54:57.352+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:54:57.358+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:54:57.364+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.035 seconds
+[2026-03-02T22:55:27.705+0000] {processor.py:186} INFO - Started process (PID=17306) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:55:27.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:55:27.709+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:55:27.708+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:55:27.738+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:55:27.736+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:55:27.739+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:55:27.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.046 seconds
+[2026-03-02T22:55:57.990+0000] {processor.py:186} INFO - Started process (PID=17317) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:55:57.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:55:57.993+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:55:57.993+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:55:58.012+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:55:58.010+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:55:58.012+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:55:58.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.032 seconds
+[2026-03-02T22:56:28.293+0000] {processor.py:186} INFO - Started process (PID=17328) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:56:28.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:56:28.299+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:56:28.299+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:56:28.327+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:56:28.325+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:56:28.328+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:56:28.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.045 seconds
+[2026-03-02T22:56:58.646+0000] {processor.py:186} INFO - Started process (PID=17339) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:56:58.647+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:56:58.650+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:56:58.649+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:56:58.671+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:56:58.669+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:56:58.671+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:56:58.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.038 seconds
+[2026-03-02T22:57:29.041+0000] {processor.py:186} INFO - Started process (PID=17350) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:57:29.042+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:57:29.045+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:57:29.045+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:57:29.065+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:57:29.063+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:57:29.065+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:57:29.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.037 seconds
+[2026-03-02T22:57:59.402+0000] {processor.py:186} INFO - Started process (PID=17361) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:57:59.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:57:59.406+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:57:59.406+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:57:59.441+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:57:59.439+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:57:59.442+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:57:59.448+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.053 seconds
+[2026-03-02T22:58:29.759+0000] {processor.py:186} INFO - Started process (PID=17372) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:58:29.760+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:58:29.764+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:58:29.763+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:58:29.791+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:58:29.789+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:58:29.792+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:58:29.796+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.046 seconds
+[2026-03-02T22:59:00.162+0000] {processor.py:186} INFO - Started process (PID=17383) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:59:00.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:59:00.168+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:59:00.166+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:59:00.200+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:59:00.198+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:59:00.200+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:59:00.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.056 seconds
+[2026-03-02T22:59:30.474+0000] {processor.py:186} INFO - Started process (PID=17394) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:59:30.478+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T22:59:30.482+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:59:30.481+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:59:30.505+0000] {logging_mixin.py:190} INFO - [2026-03-02T22:59:30.503+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T22:59:30.506+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T22:59:30.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.044 seconds
+[2026-03-02T23:00:00.850+0000] {processor.py:186} INFO - Started process (PID=17405) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:00:00.852+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:00:00.856+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:00:00.856+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:00:00.880+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:00:00.878+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T23:00:00.880+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:00:00.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.042 seconds
+[2026-03-02T23:00:31.151+0000] {processor.py:186} INFO - Started process (PID=17416) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:00:31.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:00:31.155+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:00:31.154+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:00:31.185+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:00:31.182+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T23:00:31.185+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:00:31.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.047 seconds
+[2026-03-02T23:01:01.426+0000] {processor.py:186} INFO - Started process (PID=17427) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:01:01.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:01:01.429+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:01.429+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:01:01.448+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:01.447+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T23:01:01.449+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:01:01.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.032 seconds
+[2026-03-02T23:01:31.748+0000] {processor.py:186} INFO - Started process (PID=17438) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:01:31.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:01:31.751+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:31.751+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:01:31.769+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:31.767+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/d226hw5-weatherETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/d226hw5-weatherETL.py", line 120, in <module>
+    load(target_table, data, snowflake_conn_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 373, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 254, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.12/inspect.py", line 3273, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/inspect.py", line 3192, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2026-03-02T23:01:31.769+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:01:31.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.029 seconds
+[2026-03-02T23:01:46.886+0000] {processor.py:186} INFO - Started process (PID=17443) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:01:46.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:01:46.893+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:46.892+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:01:46.927+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:01:47.003+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:47.002+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:d226hw5-weatherETL
+[2026-03-02T23:01:47.006+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:47.006+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:d226hw5-weatherETL
+[2026-03-02T23:01:47.008+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:47.008+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:d226hw5-weatherETL
+[2026-03-02T23:01:47.010+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:47.009+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:d226hw5-weatherETL
+[2026-03-02T23:01:47.011+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:47.011+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:d226hw5-weatherETL
+[2026-03-02T23:01:47.014+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:47.014+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:d226hw5-weatherETL
+[2026-03-02T23:01:47.015+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:47.015+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:d226hw5-weatherETL
+[2026-03-02T23:01:47.016+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:47.016+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:01:47.021+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:47.021+0000] {dag.py:3252} INFO - Creating ORM DAG for d226hw5-weatherETL
+[2026-03-02T23:01:47.025+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:01:47.025+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:01:47.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.151 seconds
+[2026-03-02T23:02:17.253+0000] {processor.py:186} INFO - Started process (PID=17454) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:02:17.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:02:17.258+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:02:17.257+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:02:17.285+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:02:17.298+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:02:17.298+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:02:17.309+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:02:17.309+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:02:17.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.077 seconds
+[2026-03-02T23:02:47.665+0000] {processor.py:186} INFO - Started process (PID=17465) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:02:47.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:02:47.669+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:02:47.668+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:02:47.700+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:02:47.719+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:02:47.719+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:02:47.730+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:02:47.729+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:02:47.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.080 seconds
+[2026-03-02T23:03:18.051+0000] {processor.py:186} INFO - Started process (PID=17491) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:03:18.052+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:03:18.056+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:03:18.055+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:03:18.082+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:03:18.095+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:03:18.095+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:03:18.110+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:03:18.110+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:03:18.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.085 seconds
+[2026-03-02T23:03:48.361+0000] {processor.py:186} INFO - Started process (PID=17502) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:03:48.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:03:48.367+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:03:48.366+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:03:48.403+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:03:48.424+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:03:48.423+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:03:48.441+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:03:48.441+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:03:48.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.101 seconds
+[2026-03-02T23:04:18.739+0000] {processor.py:186} INFO - Started process (PID=17513) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:04:18.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:04:18.749+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:04:18.749+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:04:18.774+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:04:18.789+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:04:18.789+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:04:18.801+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:04:18.800+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:04:18.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.085 seconds
+[2026-03-02T23:04:49.090+0000] {processor.py:186} INFO - Started process (PID=17524) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:04:49.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:04:49.095+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:04:49.093+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:04:49.127+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:04:49.137+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:04:49.137+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:04:49.147+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:04:49.147+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:04:49.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.072 seconds
+[2026-03-02T23:05:19.461+0000] {processor.py:186} INFO - Started process (PID=17535) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:05:19.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:05:19.468+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:05:19.468+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:05:19.501+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:05:19.516+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:05:19.515+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:05:19.526+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:05:19.526+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:05:19.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.076 seconds
+[2026-03-02T23:05:49.855+0000] {processor.py:186} INFO - Started process (PID=17546) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:05:49.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:05:49.859+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:05:49.859+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:05:49.882+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:05:49.892+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:05:49.892+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:05:49.902+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:05:49.902+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:05:49.908+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.066 seconds
+[2026-03-02T23:06:20.231+0000] {processor.py:186} INFO - Started process (PID=17557) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:06:20.238+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:06:20.243+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:06:20.243+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:06:20.296+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:06:20.308+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:06:20.308+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:06:20.322+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:06:20.322+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:06:20.333+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.113 seconds
+[2026-03-02T23:06:50.607+0000] {processor.py:186} INFO - Started process (PID=17568) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:06:50.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:06:50.614+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:06:50.614+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:06:50.644+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:06:50.659+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:06:50.659+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:06:50.670+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:06:50.670+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:06:50.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.083 seconds
+[2026-03-02T23:07:20.990+0000] {processor.py:186} INFO - Started process (PID=17580) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:07:20.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:07:20.994+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:07:20.994+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:07:21.026+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:07:21.039+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:07:21.039+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:07:21.057+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:07:21.057+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:07:21.065+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.083 seconds
+[2026-03-02T23:07:51.362+0000] {processor.py:186} INFO - Started process (PID=17591) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:07:51.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:07:51.366+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:07:51.366+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:07:51.389+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:07:51.402+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:07:51.402+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:07:51.414+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:07:51.414+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:07:51.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.073 seconds
+[2026-03-02T23:08:21.681+0000] {processor.py:186} INFO - Started process (PID=17602) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:08:21.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:08:21.688+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:08:21.687+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:08:21.716+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:08:21.728+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:08:21.728+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:08:21.744+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:08:21.744+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:08:21.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.082 seconds
+[2026-03-02T23:08:52.071+0000] {processor.py:186} INFO - Started process (PID=17613) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:08:52.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:08:52.075+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:08:52.075+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:08:52.103+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:08:52.114+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:08:52.114+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:08:52.130+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:08:52.130+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:08:52.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.072 seconds
+[2026-03-02T23:09:22.453+0000] {processor.py:186} INFO - Started process (PID=17624) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:09:22.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:09:22.458+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:09:22.457+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:09:22.485+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:09:22.496+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:09:22.496+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:09:22.508+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:09:22.508+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:09:22.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.072 seconds
+[2026-03-02T23:09:52.847+0000] {processor.py:186} INFO - Started process (PID=17635) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:09:52.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:09:52.855+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:09:52.854+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:09:52.888+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:09:52.903+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:09:52.902+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:09:52.914+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:09:52.914+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:09:52.928+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.090 seconds
+[2026-03-02T23:10:23.188+0000] {processor.py:186} INFO - Started process (PID=17646) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:10:23.190+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:10:23.194+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:10:23.193+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:10:23.230+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:10:23.248+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:10:23.248+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:10:23.276+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:10:23.275+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:10:23.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.113 seconds
+[2026-03-02T23:10:53.505+0000] {processor.py:186} INFO - Started process (PID=17657) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:10:53.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:10:53.510+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:10:53.509+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:10:53.534+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:10:53.547+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:10:53.547+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:10:53.559+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:10:53.559+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:10:53.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.069 seconds
+[2026-03-02T23:11:23.843+0000] {processor.py:186} INFO - Started process (PID=17668) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:11:23.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:11:23.852+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:11:23.850+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:11:23.887+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:11:23.904+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:11:23.903+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:11:23.922+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:11:23.922+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:11:23.929+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.104 seconds
+[2026-03-02T23:11:54.184+0000] {processor.py:186} INFO - Started process (PID=17679) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:11:54.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:11:54.189+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:11:54.189+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:11:54.203+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:11:54.211+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:11:54.210+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:11:54.219+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:11:54.219+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:11:54.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.072 seconds
+[2026-03-02T23:12:24.586+0000] {processor.py:186} INFO - Started process (PID=17690) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:12:24.587+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:12:24.590+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:12:24.589+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:12:24.621+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:12:24.632+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:12:24.632+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:12:24.652+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:12:24.652+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:12:24.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.080 seconds
+[2026-03-02T23:12:54.933+0000] {processor.py:186} INFO - Started process (PID=17701) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:12:54.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:12:54.936+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:12:54.936+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:12:54.958+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:12:54.966+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:12:54.966+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:12:54.975+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:12:54.975+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:12:54.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.058 seconds
+[2026-03-02T23:13:25.236+0000] {processor.py:186} INFO - Started process (PID=17712) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:13:25.238+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:13:25.240+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:13:25.239+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:13:25.255+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:13:25.262+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:13:25.262+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:13:25.271+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:13:25.271+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:13:25.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.064 seconds
+[2026-03-02T23:13:55.582+0000] {processor.py:186} INFO - Started process (PID=17723) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:13:55.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:13:55.587+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:13:55.587+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:13:55.621+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:13:55.641+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:13:55.641+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:13:55.656+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:13:55.656+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:13:55.664+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.092 seconds
+[2026-03-02T23:14:25.926+0000] {processor.py:186} INFO - Started process (PID=17734) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:14:25.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:14:25.930+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:14:25.929+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:14:25.951+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:14:25.960+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:14:25.960+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:14:25.970+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:14:25.970+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:14:25.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.058 seconds
+[2026-03-02T23:14:56.287+0000] {processor.py:186} INFO - Started process (PID=17745) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:14:56.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:14:56.291+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:14:56.291+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:14:56.318+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:14:56.330+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:14:56.329+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:14:56.340+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:14:56.340+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:14:56.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.066 seconds
+[2026-03-02T23:15:26.592+0000] {processor.py:186} INFO - Started process (PID=17756) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:15:26.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:15:26.595+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:15:26.594+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:15:26.613+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:15:26.620+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:15:26.620+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:15:26.629+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:15:26.629+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:15:26.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.050 seconds
+[2026-03-02T23:15:56.928+0000] {processor.py:186} INFO - Started process (PID=17767) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:15:56.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:15:56.937+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:15:56.937+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:15:56.965+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:15:56.973+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:15:56.973+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:15:56.983+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:15:56.983+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:15:56.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.072 seconds
+[2026-03-02T23:16:27.253+0000] {processor.py:186} INFO - Started process (PID=17778) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:16:27.257+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:16:27.259+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:16:27.259+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:16:27.277+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:16:27.287+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:16:27.287+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:16:27.297+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:16:27.297+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:16:27.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.079 seconds
+[2026-03-02T23:16:57.560+0000] {processor.py:186} INFO - Started process (PID=17789) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:16:57.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:16:57.563+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:16:57.563+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:16:57.584+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:16:57.593+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:16:57.593+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:16:57.602+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:16:57.602+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:16:57.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.057 seconds
+[2026-03-02T23:17:27.846+0000] {processor.py:186} INFO - Started process (PID=17800) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:17:27.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:17:27.849+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:17:27.849+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:17:27.865+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:17:27.872+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:17:27.872+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:17:27.882+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:17:27.882+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:17:27.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.048 seconds
+[2026-03-02T23:17:58.157+0000] {processor.py:186} INFO - Started process (PID=17811) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:17:58.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:17:58.159+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:17:58.159+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:17:58.172+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:17:58.179+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:17:58.179+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:17:58.188+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:17:58.188+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:17:58.193+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.039 seconds
+[2026-03-02T23:18:28.504+0000] {processor.py:186} INFO - Started process (PID=17822) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:18:28.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:18:28.509+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:18:28.508+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:18:28.535+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:18:28.545+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:18:28.545+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:18:28.556+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:18:28.555+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:18:28.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.065 seconds
+[2026-03-02T23:18:58.872+0000] {processor.py:186} INFO - Started process (PID=17833) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:18:58.873+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:18:58.876+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:18:58.876+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:18:58.895+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:18:58.903+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:18:58.903+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:18:58.914+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:18:58.914+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:18:58.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.056 seconds
+[2026-03-02T23:19:29.320+0000] {processor.py:186} INFO - Started process (PID=17844) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:19:29.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:19:29.332+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:19:29.331+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:19:29.368+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:19:29.386+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:19:29.385+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:19:29.397+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:19:29.397+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:19:29.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.102 seconds
+[2026-03-02T23:19:59.684+0000] {processor.py:186} INFO - Started process (PID=17855) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:19:59.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:19:59.688+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:19:59.687+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:19:59.713+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:19:59.723+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:19:59.723+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:19:59.733+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:19:59.733+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:19:59.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.063 seconds
+[2026-03-02T23:20:30.108+0000] {processor.py:186} INFO - Started process (PID=17866) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:20:30.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:20:30.111+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:20:30.111+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:20:30.130+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:20:30.139+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:20:30.139+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:20:30.148+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:20:30.148+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:20:30.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.051 seconds
+[2026-03-02T23:21:00.503+0000] {processor.py:186} INFO - Started process (PID=17877) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:21:00.504+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:21:00.507+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:21:00.507+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:21:00.531+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:21:00.540+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:21:00.540+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:21:00.551+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:21:00.551+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:21:00.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.062 seconds
+[2026-03-02T23:21:30.905+0000] {processor.py:186} INFO - Started process (PID=17888) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:21:30.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:21:30.908+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:21:30.908+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:21:30.927+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:21:30.937+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:21:30.937+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:21:30.946+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:21:30.946+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:21:30.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.053 seconds
+[2026-03-02T23:22:01.341+0000] {processor.py:186} INFO - Started process (PID=17899) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:22:01.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:22:01.344+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:22:01.344+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:22:01.362+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:22:01.371+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:22:01.371+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:22:01.380+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:22:01.380+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:22:01.386+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.051 seconds
+[2026-03-02T23:22:31.739+0000] {processor.py:186} INFO - Started process (PID=17910) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:22:31.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:22:31.742+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:22:31.742+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:22:31.767+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:22:31.779+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:22:31.778+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:22:31.789+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:22:31.789+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:22:31.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.067 seconds
+[2026-03-02T23:23:02.063+0000] {processor.py:186} INFO - Started process (PID=17921) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:23:02.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:23:02.066+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:23:02.066+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:23:02.089+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:23:02.099+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:23:02.099+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:23:02.108+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:23:02.108+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:23:02.114+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.059 seconds
+[2026-03-02T23:23:32.461+0000] {processor.py:186} INFO - Started process (PID=17938) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:23:32.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:23:32.468+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:23:32.468+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:23:32.498+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:23:32.515+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:23:32.515+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:23:32.530+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:23:32.530+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:23:32.536+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.082 seconds
+[2026-03-02T23:24:02.838+0000] {processor.py:186} INFO - Started process (PID=17949) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:24:02.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:24:02.842+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:24:02.841+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:24:02.871+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:24:02.881+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:24:02.880+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:24:02.891+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:24:02.891+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:24:02.898+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.067 seconds
+[2026-03-02T23:24:33.357+0000] {processor.py:186} INFO - Started process (PID=17960) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:24:33.358+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:24:33.364+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:24:33.362+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:24:33.390+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:24:33.404+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:24:33.403+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:24:33.419+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:24:33.419+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:24:33.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.076 seconds
+[2026-03-02T23:25:03.769+0000] {processor.py:186} INFO - Started process (PID=17971) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:25:03.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:25:03.772+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:25:03.772+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:25:03.793+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:25:03.804+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:25:03.803+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:25:03.814+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:25:03.814+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:25:03.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.058 seconds
+[2026-03-02T23:25:34.178+0000] {processor.py:186} INFO - Started process (PID=17982) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:25:34.178+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:25:34.180+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:25:34.180+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:25:34.199+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:25:34.209+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:25:34.208+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:25:34.218+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:25:34.218+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:25:34.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.052 seconds
+[2026-03-02T23:26:04.583+0000] {processor.py:186} INFO - Started process (PID=17993) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:26:04.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:26:04.586+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:26:04.586+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:26:04.603+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:26:04.612+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:26:04.612+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:26:04.621+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:26:04.621+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:26:04.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.051 seconds
+[2026-03-02T23:26:34.959+0000] {processor.py:186} INFO - Started process (PID=18004) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:26:34.962+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:26:34.974+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:26:34.973+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:26:35.008+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:26:35.025+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:26:35.025+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:26:35.039+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:26:35.038+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:26:35.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.094 seconds
+[2026-03-02T23:27:05.262+0000] {processor.py:186} INFO - Started process (PID=18015) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:27:05.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:27:05.266+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:27:05.265+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:27:05.287+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:27:05.297+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:27:05.297+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:27:05.306+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:27:05.306+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:27:05.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.055 seconds
+[2026-03-02T23:27:35.587+0000] {processor.py:186} INFO - Started process (PID=18026) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:27:35.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:27:35.592+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:27:35.591+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:27:35.619+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:27:35.630+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:27:35.629+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:27:35.640+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:27:35.640+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:27:35.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.068 seconds
+[2026-03-02T23:28:06.022+0000] {processor.py:186} INFO - Started process (PID=18037) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:28:06.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:28:06.025+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:28:06.025+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:28:06.044+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:28:06.053+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:28:06.053+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:28:06.062+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:28:06.062+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:28:06.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.052 seconds
+[2026-03-02T23:28:36.390+0000] {processor.py:186} INFO - Started process (PID=18048) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:28:36.390+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:28:36.393+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:28:36.392+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:28:36.412+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:28:36.421+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:28:36.421+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:28:36.430+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:28:36.430+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:28:36.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.051 seconds
+[2026-03-02T23:29:06.811+0000] {processor.py:186} INFO - Started process (PID=18059) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:29:06.812+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:29:06.816+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:29:06.815+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:29:06.841+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:29:06.850+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:29:06.850+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:29:06.861+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:29:06.861+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:29:06.867+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.064 seconds
+[2026-03-02T23:29:37.221+0000] {processor.py:186} INFO - Started process (PID=18070) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:29:37.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:29:37.225+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:29:37.224+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:29:37.246+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:29:37.256+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:29:37.255+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:29:37.265+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:29:37.265+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:29:37.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.056 seconds
+[2026-03-02T23:30:07.543+0000] {processor.py:186} INFO - Started process (PID=18081) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:30:07.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:30:07.546+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:30:07.546+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:30:07.565+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:30:07.574+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:30:07.574+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:30:07.583+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:30:07.583+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:30:07.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.052 seconds
+[2026-03-02T23:30:37.939+0000] {processor.py:186} INFO - Started process (PID=18092) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:30:37.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:30:37.946+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:30:37.946+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:30:37.972+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:30:37.982+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:30:37.982+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:30:37.991+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:30:37.991+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:30:37.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.066 seconds
+[2026-03-02T23:31:08.326+0000] {processor.py:186} INFO - Started process (PID=18103) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:31:08.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:31:08.330+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:31:08.329+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:31:08.351+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:31:08.360+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:31:08.360+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:31:08.369+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:31:08.369+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:31:08.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.056 seconds
+[2026-03-02T23:31:38.704+0000] {processor.py:186} INFO - Started process (PID=18114) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:31:38.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:31:38.706+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:31:38.706+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:31:38.720+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:31:38.728+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:31:38.727+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:31:38.736+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:31:38.736+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:31:38.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.041 seconds
+[2026-03-02T23:32:09.089+0000] {processor.py:186} INFO - Started process (PID=18125) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:32:09.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:32:09.092+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:32:09.092+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:32:09.110+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:32:09.119+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:32:09.119+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:32:09.128+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:32:09.128+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:32:09.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.050 seconds
+[2026-03-02T23:32:39.508+0000] {processor.py:186} INFO - Started process (PID=18136) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:32:39.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:32:39.513+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:32:39.512+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:32:39.537+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:32:39.551+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:32:39.551+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:32:39.560+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:32:39.560+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:32:39.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.073 seconds
+[2026-03-02T23:33:09.823+0000] {processor.py:186} INFO - Started process (PID=18147) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:33:09.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:33:09.826+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:33:09.826+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:33:09.849+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:33:09.858+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:33:09.858+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:33:09.867+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:33:09.867+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:33:09.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.055 seconds
+[2026-03-02T23:33:40.181+0000] {processor.py:186} INFO - Started process (PID=18158) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:33:40.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:33:40.184+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:33:40.184+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:33:40.202+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:33:40.211+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:33:40.211+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:33:40.224+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:33:40.223+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:33:40.233+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.058 seconds
+[2026-03-02T23:34:10.694+0000] {processor.py:186} INFO - Started process (PID=18168) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:34:10.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:34:10.700+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:34:10.699+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:34:10.734+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:34:10.747+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:34:10.747+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:34:10.760+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:34:10.760+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:34:10.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.091 seconds
+[2026-03-02T23:49:26.982+0000] {processor.py:186} INFO - Started process (PID=18173) to work on /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:49:26.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/d226hw5-weatherETL.py for tasks to queue
+[2026-03-02T23:49:26.984+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:49:26.984+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:49:26.997+0000] {processor.py:925} INFO - DAG(s) 'd226hw5-weatherETL' retrieved from /opt/airflow/dags/d226hw5-weatherETL.py
+[2026-03-02T23:49:27.148+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:49:27.148+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-03-02T23:49:27.172+0000] {logging_mixin.py:190} INFO - [2026-03-02T23:49:27.172+0000] {dag.py:4156} INFO - Setting next_dagrun for d226hw5-weatherETL to 2026-03-02 02:30:00+00:00, run_after=2026-03-03 02:30:00+00:00
+[2026-03-02T23:49:27.187+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/d226hw5-weatherETL.py took 0.209 seconds
